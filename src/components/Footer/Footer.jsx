@@ -5,7 +5,7 @@ import Logo from '/img/logo.png';
 import { motion } from 'framer-motion';
 const Footer = () => {
   return (
-    <footer className="bg-primary py-8">
+    <div className="bg-primary py-8">
       <div className="container">
         <div className=" text-white grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {/* company detaile section */}
@@ -61,7 +61,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
+    </div>
   );
 };
 
