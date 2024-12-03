@@ -1,5 +1,5 @@
 import React from 'react';
-import Navbar from './components/navbar';
+
 import Hero from './components/Hero';
 import { UpdateFollower } from 'react-mouse-follower';
 import Products from './components/Products/Products';
